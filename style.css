@@ -17,7 +17,7 @@ fieldset{
   padding: 30px 40px;
   border: 2px solid black;
   border-radius: 10px;
-  width: 350px;
+  width: 370px;
   margin-top: 20px;
 }
 
@@ -122,3 +122,17 @@ form:invalid button {
   pointer-events: none;
 }
 
+label[for="form-password"]::before,
+label[for="form-telephone"]::before,
+label[for="form-name"]::before,
+label[for="form-surname"]::before,
+label[for="form-age"]::before,
+label[for="form-email"]::before,
+label[for="form-card-number"]::before,
+label[for="form-cvc"]::before,
+label[for="form-date"]::before,
+label[for="form-address"]::before,
+label[for="form-plan"]::before {
+  content: "* ";
+  color: red;
+} 
