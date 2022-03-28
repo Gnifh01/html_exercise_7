@@ -49,6 +49,7 @@
         />
         <label for="form-password">Password <br> (min. 8 characters and one caps letter)</label>
         <input
+          title="min. 8 characters and one caps letter"
           type="password"
           name="password"
           id="form-password"
@@ -58,6 +59,7 @@
         />
         <label for="form-telephone">Telephone Number</label>
         <input
+          title="max. 10 number"
           type="text"
           id="form-telephone"
           maxlength="10"
@@ -98,6 +100,7 @@
         <legend align="center">Payment Method</legend>
         <label for="form-card-number">Card Number</label>
         <input
+          title="Only numbers"
           type="text"
           id="form-card-number"
           maxlength="16"
@@ -118,6 +121,7 @@
           <div class="container-card-cvc">
             <label for="form-cvc">CVC</label>
             <input
+              title="Only numbers"
               type="text"
               id="form-cvc"
               pattern="[0-9]{0,3}"
