@@ -13,6 +13,11 @@ body {
   align-items: center;
 }
 
+h6 {
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: lighter;
+}
+
 fieldset{
   padding: 30px 40px;
   border: 2px solid black;
